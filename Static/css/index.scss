@@ -1,0 +1,60 @@
+
+$ff-primary: 'Roboto', sans-serif;
+$ff-secondary: 'Ubuntu Mono', monospace;
+$clr-dark: #1F3960;
+$clr-light: rgba(255, 255, 255, 0.493);
+$clr-beige: #E09D60;
+$clr-accent: #046e01;
+$w-reg: 300;
+$fw-bold: 900;
+$fs-h1: 3rem;
+$fs-h2: 2.25rem;
+$fs-h3: 1.25rem;
+$bs-body: 1rem;
+
+
+$bs-shadow: 0.25em 0.25em 0.75em rgba(14, 230, 250, 0.562), 
+             0.125em 0.125em 0.25em rgba(0, 0, 0, .15);
+
+
+.container-fluid{
+    background-color: $clr-dark;
+    height: 100vh;
+}
+
+.quote-box {
+    background-color: $clr-light;
+    width: 80vw;
+    margin-top: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1em;
+    box-shadow: $bs-shadow;
+
+    .quote--container {
+        color: $clr-accent;
+        font-size: $fs-h1;
+        text-align: center;
+        padding: 0 10px 0 10px;
+    }
+
+    .author--container{
+        color: $clr-accent;
+        font-size: $fs-h2;
+        font-weight: $fw-bold;
+        text-align: right;
+        padding: 10px 20px 10px 0;
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+        height: 10%;
+        padding: 20px 0 20px 0;
+
+        .quote-button{
+            color: $clr-accent;
+        }
+    }
+}
+
